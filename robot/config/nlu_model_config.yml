@@ -1,0 +1,19 @@
+language: "zh"
+
+pipeline:
+- name: "nlp_mitie"
+  model: "robot/data/total_word_feature_extractor.dat"
+- name: "tokenizer_jieba"
+  dictionary_path: "robot/data/dict"
+- name: "ner_mitie"
+- name: "ner_synonyms"
+- name: "intent_entity_featurizer_regex"
+- name: "intent_featurizer_mitie"
+- name: "intent_classifier_sklearn"
+
+project: "current"
+fixed_model_name: "nlu"
+path : "robot/models"
+#data : "robot/config/nlu_json/ask_size.json"
+data : "robot/config/nlu_json"
+num_threads : 8

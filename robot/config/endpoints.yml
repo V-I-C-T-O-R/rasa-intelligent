@@ -1,0 +1,9 @@
+action_endpoint:
+  url: "http://0.0.0.0:5001/webhook"
+# url: "http://0.0.0.0:5055/webhook"
+tracker_store:
+    store_type: redis
+    url: 127.0.0.1
+    port: 6379
+    db: test
+    password: 123456

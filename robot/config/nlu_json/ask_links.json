@@ -1,0 +1,384 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "发片的链接重新发下",
+        "intent": "ask_links",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "链接",
+            "entity": "links"
+          },
+          {
+            "start": 5,
+            "end": 8,
+            "value": "发",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "给我一个你们软件的下载地址",
+        "intent": "ask_links",
+        "entities": [
+          {
+            "start": 9,
+            "end": 13,
+            "value": "下载地址",
+            "entity": "links"
+          }
+        ]
+      },
+      {
+        "text": "网址给我发下",
+        "intent": "ask_links",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "网址",
+            "entity": "links"
+          },
+          {
+            "start": 4,
+            "end": 5,
+            "value": "发",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "你们现在传片的网址发一下",
+        "intent": "ask_links",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "网址",
+            "entity": "links"
+          },
+          {
+            "start": 9,
+            "end": 12,
+            "value": "发",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "网站下单地址",
+        "intent": "ask_links",
+        "entities": [
+          {
+            "start": 2,
+            "end": 6,
+            "value": "网址",
+            "entity": "links"
+          }
+        ]
+      },
+      {
+        "text": "你们的网站发给我一下",
+        "intent": "ask_links",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "网站",
+            "entity": "links"
+          },
+          {
+            "start": 5,
+            "end": 6,
+            "value": "发",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "你好 你官网 是什么的",
+        "intent": "ask_links",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "官网",
+            "entity": "links"
+          }
+        ]
+      },
+      {
+        "text": "发片的链接再给我发一下",
+        "intent": "ask_links",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "链接",
+            "entity": "links"
+          },
+          {
+            "start": 8,
+            "end": 11,
+            "value": "发",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "把你们下单链接发我一下，谢谢",
+        "intent": "ask_links",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "链接",
+            "entity": "links"
+          },
+          {
+            "start": 7,
+            "end": 8,
+            "value": "发",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "亲，发一份客户端安装给我",
+        "intent": "ask_links",
+        "entities": [
+          {
+            "start": 2,
+            "end": 3,
+            "value": "发",
+            "entity": "action"
+          },
+          {
+            "start": 5,
+            "end": 8,
+            "value": "链接",
+            "entity": "links"
+          }
+        ]
+      },
+      {
+        "text": "你好上次发那个网站 我这里没有了 跟新了系统的 你在发一次",
+        "intent": "ask_links",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "网站",
+            "entity": "links"
+          },
+          {
+            "start": 26,
+            "end": 27,
+            "value": "发",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "电脑重装系统了  给我发个网址",
+        "intent": "ask_links",
+        "entities": [
+          {
+            "start": 11,
+            "end": 12,
+            "value": "发",
+            "entity": "action"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "网址",
+            "entity": "links"
+          }
+        ]
+      },
+      {
+        "text": "虎彩的下单软件发我一下",
+        "intent": "ask_links",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "下单软件",
+            "entity": "links"
+          },
+          {
+            "start": 7,
+            "end": 8,
+            "value": "发",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "发一下发片链接",
+        "intent": "ask_links",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "发一下",
+            "entity": "action"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "链接",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "你好，之前电脑出了问题，那个虎彩的客户端被删除了，能不能重新发一个给我？",
+        "intent": "ask_links",
+        "entities": [
+          {
+            "start": 17,
+            "end": 20,
+            "value": "客户端",
+            "entity": "links"
+          },
+          {
+            "start": 30,
+            "end": 33,
+            "value": "发一个",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "网址发一下",
+        "intent": "ask_links",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "网址",
+            "entity": "links"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "发一下",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "亲  请问你们订购相册网址是哪个",
+        "intent": "ask_links",
+        "entities": [
+          {
+            "start": 11,
+            "end": 13,
+            "value": "网址",
+            "entity": "links"
+          }
+        ]
+      },
+      {
+        "text": "给我发一下客户端的安装包吧，谢谢",
+        "intent": "ask_links",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "发一下",
+            "entity": "action"
+          },
+          {
+            "start": 5,
+            "end": 8,
+            "value": "客户端",
+            "entity": "links"
+          }
+        ]
+      },
+      {
+        "text": "您好能给我发下下单的官网地址吗",
+        "intent": "ask_links",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "发下",
+            "entity": "action"
+          },
+          {
+            "start": 10,
+            "end": 14,
+            "value": "官网地址",
+            "entity": "links"
+          }
+        ]
+      },
+      {
+        "text": "你好、系统的网址给我。",
+        "intent": "ask_links",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "网址",
+            "entity": "links"
+          }
+        ]
+      },
+      {
+        "text": "你家软件是不是更新了  给我最新的下单软件",
+        "intent": "ask_links",
+        "entities": [
+          {
+            "start": 12,
+            "end": 14,
+            "value": "给我",
+            "entity": "action"
+          },
+          {
+            "start": 17,
+            "end": 21,
+            "value": "下单软件",
+            "entity": "links"
+          }
+        ]
+      },
+      {
+        "text": "给发个链接",
+        "intent": "ask_links",
+        "entities": [
+          {
+            "start": 1,
+            "end": 2,
+            "value": "发",
+            "entity": "action"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "链接",
+            "entity": "links"
+          }
+        ]
+      },
+      {
+        "text": "想要你们家购买产品的链接",
+        "intent": "ask_links",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "链接",
+            "entity": "links"
+          }
+        ]
+      }
+    ]
+  }
+}

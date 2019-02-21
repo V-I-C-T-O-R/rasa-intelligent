@@ -1,0 +1,832 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "W118052945060 这个客户急要帮忙加急今天做出",
+        "intent": "query_progress",
+        "entities": [
+          {
+            "start": 22,
+            "end": 24,
+            "value": "加急",
+            "entity": "action"
+          },
+          {
+            "start": 26,
+            "end": 28,
+            "value": "做出",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "118052944574这个order_number发货了吗",
+        "intent": "query_progress",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "118052944574",
+            "entity": "order_number"
+          },
+          {
+            "start": 17,
+            "end": 19,
+            "value": "发货",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "你好，118052618814，客人说相册和摆台还没收到哦",
+        "intent": "query_progress",
+        "entities": [
+          {
+            "start": 3,
+            "end": 15,
+            "value": "118052618814",
+            "entity": "order_number"
+          },
+          {
+            "start": 19,
+            "end": 21,
+            "value": "相册",
+            "entity": "product"
+          },
+          {
+            "start": 22,
+            "end": 24,
+            "value": "摆台",
+            "entity": "product"
+          },
+          {
+            "start": 25,
+            "end": 28,
+            "value": "没收到",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "客人现在还没收到",
+        "intent": "query_progress",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "没收到",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "那本18寸封面什么时候可以做 好",
+        "intent": "query_progress",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "18寸",
+            "entity": "size"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "封面",
+            "entity": "product"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "时候",
+            "entity": "time"
+          },
+          {
+            "start": 13,
+            "end": 14,
+            "value": "做",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "订单号：118053045818，这个客人还没寄出去嘛.",
+        "intent": "query_progress",
+        "entities": [
+          {
+            "start": 4,
+            "end": 16,
+            "value": "118053045818",
+            "entity": "order_number"
+          },
+          {
+            "start": 21,
+            "end": 23,
+            "value": "还没",
+            "entity": "action"
+          },
+          {
+            "start": 23,
+            "end": 26,
+            "value": "寄出去",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "118060146878,这个我刚刚上传的,麻烦帮我加急制作",
+        "intent": "query_progress",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "118060146878",
+            "entity": "order_number"
+          },
+          {
+            "start": 18,
+            "end": 20,
+            "value": "上传",
+            "entity": "action"
+          },
+          {
+            "start": 26,
+            "end": 28,
+            "value": "加急",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "你好 麻烦查一下单号118052811492李渊 吕伟玲发了几本相册",
+        "intent": "query_progress",
+        "entities": [
+          {
+            "start": 32,
+            "end": 34,
+            "value": "相册",
+            "entity": "product"
+          },
+          {
+            "start": 10,
+            "end": 22,
+            "value": "118052811492",
+            "entity": "order_number"
+          }
+        ]
+      },
+      {
+        "text": "可以帮我查个客户的件吗?1180528444068",
+        "intent": "query_progress",
+        "entities": [
+          {
+            "start": 4,
+            "end": 5,
+            "value": "查",
+            "entity": "action"
+          },
+          {
+            "start": 12,
+            "end": 25,
+            "value": "1180528444068",
+            "entity": "order_number"
+          }
+        ]
+      },
+      {
+        "text": "118052340209，这个寄出顺丰了吗",
+        "intent": "query_progress",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "118052340209",
+            "entity": "order_number"
+          },
+          {
+            "start": 15,
+            "end": 16,
+            "value": "寄",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "118052239544，亲，这个快递怎么回事呢",
+        "intent": "query_progress",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "118052239544",
+            "entity": "order_number"
+          }
+        ]
+      },
+      {
+        "text": "118061054035          17号能收到吗",
+        "intent": "query_progress",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "118061054035",
+            "entity": "order_number"
+          },
+          {
+            "start": 22,
+            "end": 25,
+            "value": "17号",
+            "entity": "time"
+          },
+          {
+            "start": 26,
+            "end": 28,
+            "value": "收到",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "118060650458麻烦查一下这个单号",
+        "intent": "query_progress",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "118060650458",
+            "entity": "order_number"
+          },
+          {
+            "start": 14,
+            "end": 17,
+            "value": "查一下",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "订单号：118053146072,这个寄出了吗a",
+        "intent": "query_progress",
+        "entities": [
+          {
+            "start": 4,
+            "end": 16,
+            "value": "118053146072",
+            "entity": "order_number"
+          },
+          {
+            "start": 19,
+            "end": 21,
+            "value": "寄出",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "118060348380  这批件里面这个邓礼回来了吗,没找到呀",
+        "intent": "query_progress",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "118060348380",
+            "entity": "order_number"
+          },
+          {
+            "start": 23,
+            "end": 25,
+            "value": "回来",
+            "entity": "action"
+          },
+          {
+            "start": 28,
+            "end": 31,
+            "value": "没找到",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "订单号：118060916511,帮我查查",
+        "intent": "query_progress",
+        "entities": [
+          {
+            "start": 4,
+            "end": 16,
+            "value": "118060916511",
+            "entity": "order_number"
+          },
+          {
+            "start": 19,
+            "end": 21,
+            "value": "查查",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "订单号：118061255115,帮忙跟进一下",
+        "intent": "query_progress",
+        "entities": [
+          {
+            "start": 4,
+            "end": 16,
+            "value": "118061255115",
+            "entity": "order_number"
+          },
+          {
+            "start": 19,
+            "end": 21,
+            "value": "跟进",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "118060650458这个单号还欠2本没有回来",
+        "intent": "query_progress",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "118060650458",
+            "entity": "order_number"
+          },
+          {
+            "start": 20,
+            "end": 22,
+            "value": "没有",
+            "entity": "action"
+          },
+          {
+            "start": 22,
+            "end": 24,
+            "value": "回来",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "订单号：118071482716，这个我能帮我催催吗",
+        "intent": "query_progress",
+        "entities": [
+          {
+            "start": 4,
+            "end": 16,
+            "value": "118071482716",
+            "entity": "order_number"
+          },
+          {
+            "start": 23,
+            "end": 25,
+            "value": "催催",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "118071280980的单号产品做好么？",
+        "intent": "query_progress",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "118071280980",
+            "entity": "order_number"
+          },
+          {
+            "start": 17,
+            "end": 19,
+            "value": "做好",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "请查一下118072418647的定单收到了吗?",
+        "intent": "query_progress",
+        "entities": [
+          {
+            "start": 4,
+            "end": 16,
+            "value": "118072418647",
+            "entity": "order_number"
+          },
+          {
+            "start": 1,
+            "end": 4,
+            "value": "查一下",
+            "entity": "action"
+          },
+          {
+            "start": 19,
+            "end": 21,
+            "value": "收到",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "118071886549  这个订单补做的已经开始做了吗",
+        "intent": "query_progress",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "118071886549",
+            "entity": "order_number"
+          },
+          {
+            "start": 23,
+            "end": 26,
+            "value": "开始做",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "查下118072188497 这个单号",
+        "intent": "query_progress",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "查下",
+            "entity": "action"
+          },
+          {
+            "start": 2,
+            "end": 14,
+            "value": "118072188497",
+            "entity": "order_number"
+          }
+        ]
+      },
+      {
+        "text": "118072016444订单编号，这批的相册我还没收到呢",
+        "intent": "query_progress",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "118072016444",
+            "entity": "order_number"
+          },
+          {
+            "start": 23,
+            "end": 25,
+            "value": "还没",
+            "entity": "action"
+          },
+          {
+            "start": 25,
+            "end": 27,
+            "value": "收到",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "118072088159发货了吗",
+        "intent": "query_progress",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "118072088159",
+            "entity": "order_number"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "发货",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "118071382085，你好，之前反馈过的初雪大框烂了得问题，客人问什么时候可以寄出",
+        "intent": "query_progress",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "118071382085",
+            "entity": "order_number"
+          },
+          {
+            "start": 22,
+            "end": 26,
+            "value": "初雪大框",
+            "entity": "product"
+          },
+          {
+            "start": 41,
+            "end": 43,
+            "value": "寄出",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "118072491061帮查一下这份件什么时候能好",
+        "intent": "query_progress",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "118072491061",
+            "entity": "order_number"
+          },
+          {
+            "start": 13,
+            "end": 16,
+            "value": "查一下",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "订单号：118070575477这个客人的两本相册一本杂志册没有收到",
+        "intent": "query_progress",
+        "entities": [
+          {
+            "start": 4,
+            "end": 16,
+            "value": "118070575477",
+            "entity": "order_number"
+          },
+          {
+            "start": 23,
+            "end": 25,
+            "value": "相册",
+            "entity": "product"
+          },
+          {
+            "start": 27,
+            "end": 30,
+            "value": "杂志册",
+            "entity": "product"
+          },
+          {
+            "start": 32,
+            "end": 34,
+            "value": "收到",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "2个单号查下",
+        "intent": "query_progress",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "2",
+            "entity": "nums"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "订单号",
+            "entity": "order_number"
+          },
+          {
+            "start": 4,
+            "end": 5,
+            "value": "查",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "作业号: 118071785604这个单号有帮我重做了吗",
+        "intent": "query_progress",
+        "entities": [
+          {
+            "start": 5,
+            "end": 17,
+            "value": "118071785604",
+            "entity": "order_number"
+          },
+          {
+            "start": 19,
+            "end": 21,
+            "value": "订单号",
+            "entity": "order_number"
+          },
+          {
+            "start": 24,
+            "end": 26,
+            "value": "重做",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "你好 吴梦莹的反片做好了么",
+        "intent": "query_progress",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "反片",
+            "entity": "product"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "做好",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "张腾腾的一起有3个订单 他到现在只收到一个",
+        "intent": "query_progress",
+        "entities": [
+          {
+            "start": 7,
+            "end": 8,
+            "value": "3",
+            "entity": "nums"
+          },
+          {
+            "start": 17,
+            "end": 19,
+            "value": "收到",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "整理可以查件吗？",
+        "intent": "query_progress",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "查件",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "查查这个单号什么时候可以发货",
+        "intent": "query_progress",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "查查",
+            "entity": "action"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "发货",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "查这本册子，在哪里",
+        "intent": "query_progress",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "查",
+            "entity": "action"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "相册",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "能查一下这个客户的什么时候能发货吗",
+        "intent": "query_progress",
+        "entities": [
+          {
+            "start": 1,
+            "end": 2,
+            "value": "查",
+            "entity": "action"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "发货",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "麻烦查下，册子发了吗",
+        "intent": "query_progress",
+        "entities": [
+          {
+            "start": 2,
+            "end": 3,
+            "value": "查",
+            "entity": "action"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "相册",
+            "entity": "product"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "发了",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "帮我查下伏慎鹏的寸相册做好没",
+        "intent": "query_progress",
+        "entities": [
+          {
+            "start": 2,
+            "end": 3,
+            "value": "查",
+            "entity": "action"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "相册",
+            "entity": "product"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "做好",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "帮我查一下这个订单，发货没",
+        "intent": "query_progress",
+        "entities": [
+          {
+            "start": 2,
+            "end": 3,
+            "value": "查",
+            "entity": "action"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "发货",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "你好，请帮我查一上毛钰雯的相册做好了没有",
+        "intent": "query_progress",
+        "entities": [
+          {
+            "start": 6,
+            "end": 7,
+            "value": "查",
+            "entity": "action"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "相册",
+            "entity": "product"
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "value": "做好",
+            "entity": "action"
+          }
+        ]
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": [
+      {
+        "value": "消费",
+        "synonyms": [
+          "话费",
+          "钱"
+        ]
+      }
+    ]
+  }
+}

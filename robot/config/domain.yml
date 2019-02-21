@@ -1,0 +1,94 @@
+slots:
+  page:
+    type: text
+  product:
+    type: text
+  size:
+    type: text
+  action:
+    type: text
+  nums:
+    type: text
+  time:
+    type: text
+  style:
+    type: text
+  order_number:
+    type: text
+  material:
+    type: text
+  series:
+    type: text
+  links:
+    type: text
+
+entities:
+  - product
+  - size
+  - action
+  - nums
+  - time
+  - style
+  - order_number
+  - material
+  - series
+  - links
+
+intents:
+  - greet
+  - goodbye
+  - confirm
+  - thanks
+  - deny
+  - ask_links
+  - query_progress
+  - ask_size
+
+templates:
+  utter_greet:
+    - "您好，有什么可以帮您？"
+  utter_goodbye:
+    - "好的 亲，如有疑问请再联系我，感谢您本次来访，祝您生活愉快，再见！"
+    - "亲，如果您的问题已解决，就不打扰您了，祝您生活愉快，再见！"
+    - "亲，如果还有疑问请再联系我，感谢您本次来访！祝您生活愉快，再见~"
+  utter_nothanks:
+    - "不用谢"
+    - "我应该做的"
+    - "客气啦亲"
+  utter_ask_morehelp:
+    - "请问还有什么能帮您吗？"
+    - "请问您还有什么需要吗？"
+    - "亲，您还有其它问题吗？"
+  utter_default:
+    - "不好意思，我还不太懂您说的是什么，您能说具体点吗"
+  utter_ask_order_number:
+    - "请提供一下你的订单号"
+  utter_color:
+    - "你想查什么颜色的？"
+  utter_material:
+    - "你想查什么材质的？"
+  utter_series:
+    - "你想查哪个系列的？"
+  utter_ask_dosearch:
+    - "好的，正在查找"
+  utter_ask_howcanhelp:
+    - text: "您好，有什么可以帮您的吗，我可以帮您查订单进度、产品尺寸、商品链接等"
+  utter_on_it:
+    - "好的，我知道了"
+  utter_ask_moreupdates:
+    - "如果还缺什么，你可以告诉我. 这是我知道的情况: {product} (size: {size})."
+
+actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_nothanks
+  - utter_ask_morehelp
+  - utter_default
+  - utter_ask_order_number
+  - utter_ask_howcanhelp
+  - utter_on_it
+  - utter_ask_moreupdates
+  - action_query_order
+  - action_search_links
+  - action_search_size
+  - action_default_custom

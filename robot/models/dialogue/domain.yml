@@ -1,0 +1,113 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_goodbye
+- utter_nothanks
+- utter_ask_morehelp
+- utter_default
+- utter_ask_order_number
+- utter_ask_howcanhelp
+- utter_on_it
+- utter_ask_moreupdates
+- action_query_order
+- action_search_links
+- action_search_size
+- action_default_custom
+config:
+  store_entities_as_slots: true
+entities:
+- product
+- size
+- action
+- nums
+- time
+- style
+- order_number
+- material
+- series
+- links
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- confirm:
+    use_entities: true
+- thanks:
+    use_entities: true
+- deny:
+    use_entities: true
+- ask_links:
+    use_entities: true
+- query_progress:
+    use_entities: true
+- ask_size:
+    use_entities: true
+slots:
+  action:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  links:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  material:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  nums:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  order_number:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  page:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  product:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  series:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  size:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  style:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  time:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_dosearch:
+  - text: 好的，正在查找
+  utter_ask_howcanhelp:
+  - text: 您好，有什么可以帮您的吗，我可以帮您查订单进度、产品尺寸、商品链接等
+  utter_ask_morehelp:
+  - text: 请问还有什么能帮您吗？
+  - text: 请问您还有什么需要吗？
+  - text: 亲，您还有其它问题吗？
+  utter_ask_moreupdates:
+  - text: '如果还缺什么，你可以告诉我. 这是我知道的情况: {product} (size: {size}).'
+  utter_ask_order_number:
+  - text: 请提供一下你的订单号
+  utter_color:
+  - text: 你想查什么颜色的？
+  utter_default:
+  - text: 不好意思，我还不太懂您说的是什么，您能说具体点吗
+  utter_goodbye:
+  - text: 好的 亲，如有疑问请再联系我，感谢您本次来访，祝您生活愉快，再见！
+  - text: 亲，如果您的问题已解决，就不打扰您了，祝您生活愉快，再见！
+  - text: 亲，如果还有疑问请再联系我，感谢您本次来访！祝您生活愉快，再见~
+  utter_greet:
+  - text: 您好，有什么可以帮您？
+  utter_material:
+  - text: 你想查什么材质的？
+  utter_nothanks:
+  - text: 不用谢
+  - text: 我应该做的
+  - text: 客气啦亲
+  utter_on_it:
+  - text: 好的，我知道了
+  utter_series:
+  - text: 你想查哪个系列的？

@@ -1,0 +1,481 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "你好",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "您好",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "您好吗",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "嗨",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "你是谁",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "您是",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "你是哪个",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "喂",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "再见",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "拜拜",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "嗯",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "好的",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "行",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "可以的",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "恩",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "中中",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "中",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "办吧",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "办理吧",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "行的",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "没问题",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "谢谢",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "谢谢您",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "谢谢你",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "非常感谢",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "谢谢啊",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "谢了",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "不要",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不需要",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不要办",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不办",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "暂时不要了",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不是",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "有问题",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "我再考虑考虑",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不好啦",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不行",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不可以的",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不中",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不可以",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "没了",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "没有了",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不用了",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "暂时不用了",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "好的没了",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "好不用了",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "在么",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "亲",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "在",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "88",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "谢谢了",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "谢谢咯",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "感谢",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "没问题的",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "行行",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "好的吧",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "嗯嗯嗯",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "行的吧",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "可以的",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "不要",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不需要",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "在吗",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "你好吗",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "在吗，亲",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "亲，在吗",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "有人吗",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "byebye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "明天见",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "拜拜咯",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "拜",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "再见了",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "再见吧",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "拜拜了",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "ok知道了",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "好",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "en",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "ok",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "是",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "是的",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "是吧",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "谢谢啦",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "谢",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "thankyou ",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "thanks",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "好呢",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hei",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "nihao",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "暂时没有了",
+        "intent": "deny",
+        "entities": []
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": [
+      {
+        "value": "消费",
+        "synonyms": [
+          "话费",
+          "钱"
+        ]
+      }
+    ]
+  }
+}

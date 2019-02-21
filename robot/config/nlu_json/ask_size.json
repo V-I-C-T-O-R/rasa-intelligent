@@ -1,0 +1,325 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "你好 18寸和12寸夏朵尺寸是多少",
+        "intent": "ask_size",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "18寸",
+            "entity": "size"
+          },
+          {
+            "start": 7,
+            "end": 10,
+            "value": "12寸",
+            "entity": "size"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "夏朵",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "有没有8寸GMP对裱册的尺寸",
+        "intent": "ask_size",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "8寸",
+            "entity": "size"
+          },
+          {
+            "start": 5,
+            "end": 11,
+            "value": "GMP对裱册",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "尺寸给我一下",
+        "intent": "ask_size",
+        "entities": []
+      },
+      {
+        "text": "你们那个雅特的，12的册子的尺寸是多少",
+        "intent": "ask_size",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "雅特",
+            "entity": "product"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "12",
+            "entity": "size"
+          }
+        ]
+      },
+      {
+        "text": "你把尺寸告诉我 啊 这个东西我看不懂",
+        "intent": "ask_size",
+        "entities": []
+      },
+      {
+        "text": "12寸琉璃册是多少X多少的？",
+        "intent": "ask_size",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "12寸",
+            "entity": "size"
+          },
+          {
+            "start": 3,
+            "end": 6,
+            "value": "琉璃册",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "40X60cm琉璃大相框 是多少像素的",
+        "intent": "ask_size",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "琉璃册",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "封面尺寸呢",
+        "intent": "ask_size",
+        "entities": []
+      },
+      {
+        "text": "夏朵相册,12是多大的",
+        "intent": "ask_size",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "夏朵相册",
+            "entity": "product"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "12寸",
+            "entity": "size"
+          }
+        ]
+      },
+      {
+        "text": "想问下8寸方的尺寸是多大的呢",
+        "intent": "ask_size",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "8寸",
+            "entity": "size"
+          }
+        ]
+      },
+      {
+        "text": "12寸韩式杂志册的尺寸是什么",
+        "intent": "ask_size",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "12寸",
+            "entity": "size"
+          },
+          {
+            "start": 3,
+            "end": 8,
+            "value": "韩式杂志册",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "初夏摆台的尺寸给下",
+        "intent": "ask_size",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "初夏摆台",
+            "entity": "product"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "给下",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "毕业季的相册是什么制作尺寸",
+        "intent": "ask_size",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "毕业季",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "60页的也是这个尺寸吗？",
+        "intent": "ask_size",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "60页",
+            "entity": "pages"
+          }
+        ]
+      },
+      {
+        "text": "潘多拉的尺寸是多少",
+        "intent": "ask_size",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "潘多拉",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "封面尺寸多少",
+        "intent": "ask_size",
+        "entities": []
+      },
+      {
+        "text": "12寸琉璃册的尺寸可以给我一份吗？",
+        "intent": "ask_size",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "12寸",
+            "entity": "size"
+          },
+          {
+            "start": 3,
+            "end": 6,
+            "value": "琉璃册",
+            "entity": "product"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "给我",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "12寸仟薄册 尺寸多大的",
+        "intent": "ask_size",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "12寸",
+            "entity": "size"
+          },
+          {
+            "start": 3,
+            "end": 6,
+            "value": "仟薄册",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "能把安娜相框和摆台的尺寸给我吗",
+        "intent": "ask_size",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "安娜",
+            "entity": "product"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "给我",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "你给我说的,封面尺寸,的是多少",
+        "intent": "ask_size",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "封面",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "米琪的这套产品的尺寸是好多啊?",
+        "intent": "ask_size",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "米琪",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "把你们的分享册尺寸给我个了",
+        "intent": "ask_size",
+        "entities": []
+      },
+      {
+        "text": "秋荷印象的尺寸给我下",
+        "intent": "ask_size",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "秋荷印象",
+            "entity": "product"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "给我",
+            "entity": "action"
+          }
+        ]
+      }
+    ]
+  }
+}
