@@ -61,7 +61,7 @@ mitie==0.5.0
 mrbot-rasa-addons==0.2.0
 msgpack-python==0.5.4
 networkx==2.2
-nltk==3.3
+nltk==3.4.5
 numpy==1.15.1
 oauthlib==2.1.0
 packaging==17.1
